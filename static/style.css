@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #343232;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+    color: #ff00a2;
+  }
+  
+  .subtitle {
+    font-style: italic;
+    margin-top: 0; 
+    color: #ccc;
+  }
+
+  .chatbox {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .chat-log {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .chat-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .chat-form input {
+    flex-grow: 1;
+    padding: 10px;
+    background: #2a2a2a;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .chat-form input:focus {
+    outline: 2px solid #ff00a2;
+    /* outline: 2px solid #00ffcc; */
+  }
+  
+  .chat-form button {
+    background-color: #ff00a2;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chat-form button:hover {
+    background-color: #e600ad;
+  }
+  
+  .message {
+    display: inline-block;
+    max-width: 70%;
+    word-wrap: break-word;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+    line-height: 1.4;
+    position: relative;
+    clear: both;
+  }
+  
+  .message.user {
+    background-color: #ff00a2;
+    color: #000;
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
+    margin-left: auto;
+  }
+  
+  .message.bot {
+    background-color: #333;
+    color: #fff;
+    align-self: flex-start;
+    border-bottom-left-radius: 0;
+    margin-right: auto;
+  }
+
+
+  

@@ -5,14 +5,16 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 list_of_files = [
-    "src/main.py",
+    "src/__init__.py",
     "src/helper.py",
     "src/prompt.py",
     ".env",
     "requirements.txt",
     "setup.py",
     "app.py",
-    "research/trials.ipynb"
+    "research/trials.ipynb",
+    "templates/index.html",
+    "static/style.css"
 ]
 
 for filepath in list_of_files:
