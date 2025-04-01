@@ -1,7 +1,7 @@
 # BrCabot
 
 ### Step1: Clone the repository:
-git clone https://github.com/Tiyasa-Saha/Medibot.git
+git clone https://github.com/Tiyasa-Saha/BrCabot.git
 
 ### Step2: Create virtual environment:
 - conda create -n venv python=3.10 -y
