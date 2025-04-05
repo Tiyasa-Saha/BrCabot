@@ -14,3 +14,4 @@ pypdf
 tqdm
 requests
 typing-extensions
+langchain-community
