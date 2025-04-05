@@ -7,3 +7,10 @@ pinecone
 python-dotenv
 setuptools
 sentence-transformers
+transformers
+torch
+huggingface-hub
+pypdf
+tqdm
+requests
+typing-extensions
