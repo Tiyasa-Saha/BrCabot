@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Medibot - Medical Chatbot</title>
+  <title>BrCabot - Cancer Chatbot</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
@@ -40,9 +40,9 @@
         });
 
         const botResponse = await res.text();
-        appendMessage("Medibot", botResponse, "bot");
+        appendMessage("BrCabot", botResponse, "bot");
       } catch (error) {
-        appendMessage("Medibot", "Sorry, something went wrong.", "bot");
+        appendMessage("BrCabot", "Sorry, something went wrong.", "bot");
       }
     });
 
